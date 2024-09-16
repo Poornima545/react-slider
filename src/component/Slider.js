@@ -16,7 +16,7 @@ const Slider = () => {
                             <img
                                 className="rounded-circle mx-auto mb-3 slider-img"
                                 src={person.img}
-                                alt={`Image of ${person.name}`}
+                                alt=""
                             />
                             <div>
                                 <h3 className="m-0 mb-2 name-title fw-lighter">{person.name.toUpperCase()}</h3>
